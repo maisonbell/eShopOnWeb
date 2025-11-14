@@ -10,7 +10,7 @@ env:
   LOCATION: 'eastus2' # Choose your Azure region
   TEMPLATE-FILE: '${{ github.workspace }}/infra/webapp.bicep'
   SUBSCRIPTION-ID: '1c81c9e8-e90d-4cf3-a89d-b2c191dbee80' # Replace with your subscription ID
-  WEBAPP-NAME: 'eshoponweb-maisonbellll' # Replace NAME with unique identifier (lowercase, no spaces)
+  WEBAPP-NAME: 'eshoponweb-pleasework' # Replace NAME with unique identifier (lowercase, no spaces)
 jobs:
   # Build and test job
   buildandtest:
